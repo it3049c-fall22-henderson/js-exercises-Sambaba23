@@ -12,11 +12,11 @@ const personObject = {
 first_name: "Samba",
 last_name: "Koita",
 class_of: 2025,
-full_name : function() {
-  return this.first_name + " " + this.last_name;
+full_name : function String() {
+  return this.first_name+' ' +this.last_name;
 },
-introduction : function String(){
-return this.full_name+" I am in the class of "+this.class_of;
+introduction : function(){
+return this.full_name("Samba","Koita")+" Class of "+this.class_of;
 }
 }
 
